@@ -1,3 +1,7 @@
-@import "bootstrap-sprockets";
+$navbar-default-bg: black;
+.center {
+  text-align: center;
+}
 
+@import "bootstrap-sprockets";
 @import "bootstrap";
