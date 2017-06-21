@@ -9,39 +9,9 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <!--- <a class="navbar-brand" href="#">Calalta Skating Club<br />Wall Of Fame</a> --->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="scores.html">Top Scores</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="goe.html">&#43;2 GOE</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="tests.html">Gold and Diamond Tests</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="teams.html">AB Team Members</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="club_awards.html">Calalta Awards</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="external_awards.html">Provincial and National Awards</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    
-    
-    <%= yield %>
+    <%= render 'layouts/navigation' %>
+    <div class="container">
+        <%= yield %>    
+    </div>
   </body>
 </html>
