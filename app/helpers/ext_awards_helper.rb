@@ -1,0 +1,2 @@
+module ExtAwardsHelper
+end

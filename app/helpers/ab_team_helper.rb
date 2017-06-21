@@ -1,0 +1,2 @@
+module AbTeamHelper
+end
