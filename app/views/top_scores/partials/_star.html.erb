@@ -76,7 +76,7 @@
     <span>
       <ul class="nav nav-tabs">
         <li class="active"><a href="#7women" aria-controls="7women" role="tab" data-toggle="tab">Women</a></li>
-        <li><a href="#7men" aria-controls="7women" role="tab" data-toggle="tab">Men</a></li>
+        <li><a href="#7men" aria-controls="7men" role="tab" data-toggle="tab">Men</a></li>
       </ul>
       <div class="tab-content">
         <div role="tabpanel" id="7women" class="tab-pane active">
@@ -92,7 +92,7 @@
     <span>
       <ul class="nav nav-tabs">
         <li class="active"><a href="#6women" aria-controls="6women" role="tab" data-toggle="tab">Women</a></li>
-        <li><a href="#6men" aria-controls="6women" role="tab" data-toggle="tab">Men</a></li>
+        <li><a href="#6men" aria-controls="6men" role="tab" data-toggle="tab">Men</a></li>
       </ul>
       <div class="tab-content">
         <div role="tabpanel" id="6women" class="tab-pane active">
@@ -105,6 +105,39 @@
     </span>   
   </div>
   <div role="tabpanel" id="5" class="tab-pane">
-    <span>STAR 5</span>  
+   <span>
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#5women13o" aria-controls="5women13o" role="tab" data-toggle="tab">Women 13 & Over</a></li>
+        <li><a href="#5womenu13" aria-controls="5womenu13" role="tab" data-toggle="tab">Women U13</a></li>
+        <li><a href="#5womenu10" aria-controls="5womenu10" role="tab" data-toggle="tab">Women U10</a></li>
+        <li><a href="#5men" aria-controls="5men" role="tab" data-toggle="tab">Men (Combined)</a></li>
+        <li><a href="#5men13o" aria-controls="5men13o" role="tab" data-toggle="tab">Men 13 & Over</a></li>
+        <li><a href="#5menu13" aria-controls="5menu13" role="tab" data-toggle="tab">Men U13</a></li>
+        <li><a href="#5menu10" aria-controls="5menu10" role="tab" data-toggle="tab">Men U10</a></li>
+      </ul>
+      <div class="tab-content">
+        <div role="tabpanel" id="5women13o" class="tab-pane active">
+          <span><%= render "top_scores/partials/scores/free" %></span>
+        </div>
+        <div role="tabpanel" id="5womenu13" class="tab-pane">
+          <span><%= render "top_scores/partials/scores/free" %></span>
+        </div>
+        <div role="tabpanel" id="5womenu10" class="tab-pane">
+          <span><%= render "top_scores/partials/scores/free" %></span>
+        </div>
+        <div role="tabpanel" id="5men" class="tab-pane">
+          <span><%= render "top_scores/partials/scores/free" %></span>
+        </div>
+        <div role="tabpanel" id="5men13o" class="tab-pane">
+          <span><%= render "top_scores/partials/scores/free" %></span>
+        </div>
+        <div role="tabpanel" id="5menu13" class="tab-pane">
+          <span><%= render "top_scores/partials/scores/free" %></span>
+        </div>
+        <div role="tabpanel" id="5menu10" class="tab-pane">
+          <span><%= render "top_scores/partials/scores/free" %></span>
+        </div>
+      </div>
+    </span>   
   </div>
 </div>
