@@ -56,10 +56,52 @@
     </span> 
   </div>
   <div role="tabpanel" id="novice" class="tab-pane">
-    <span>Novice</span>  
+    <span>
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#nwomen" aria-controls="nwomen" role="tab" data-toggle="tab">Women</a></li>
+        <li><a href="#nmen" aria-controls="nmen" role="tab" data-toggle="tab">Men</a></li>
+        <li><a href="#npairs" aria-controls="npairs" role="tab" data-toggle="tab">Pairs</a></li>
+        <li><a href="#ndance" aria-controls="ndance" role="tab" data-toggle="tab">Dance</a></li>
+      </ul>
+      <div class="tab-content">
+        <div role="tabpanel" id="nwomen" class="tab-pane active">
+          <span><%= render "top_scores/partials/competitive/shortandlong" %></span>
+        </div>
+        <div role="tabpanel" id="nmen" class="tab-pane">
+          <span><%= render "top_scores/partials/competitive/shortandlong" %></span>
+        </div>
+        <div role="tabpanel" id="npairs" class="tab-pane">
+          <span><%= render "top_scores/partials/competitive/shortandlong" %></span>
+        </div>
+        <div role="tabpanel" id="ndance" class="tab-pane">
+          <span><%= render "top_scores/partials/competitive/dance2" %></span>
+        </div>
+      </div>
+    </span>  
   </div>
   <div role="tabpanel" id="prenovice" class="tab-pane">
-    <span>Pre-Novice</span>  
+    <span>
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#pnwomen" aria-controls="pnwomen" role="tab" data-toggle="tab">Women</a></li>
+        <li><a href="#pnmen" aria-controls="pnmen" role="tab" data-toggle="tab">Men</a></li>
+        <li><a href="#pnpairs" aria-controls="pnpairs" role="tab" data-toggle="tab">Pairs</a></li>
+        <li><a href="#pndance" aria-controls="pndance" role="tab" data-toggle="tab">Dance</a></li>
+      </ul>
+      <div class="tab-content">
+        <div role="tabpanel" id="pnwomen" class="tab-pane active">
+          <span><%= render "top_scores/partials/competitive/shortandlong" %></span>
+        </div>
+        <div role="tabpanel" id="pnmen" class="tab-pane">
+          <span><%= render "top_scores/partials/competitive/shortandlong" %></span>
+        </div>
+        <div role="tabpanel" id="pnpairs" class="tab-pane">
+          <span><%= render "top_scores/partials/competitive/shortandlong" %></span>
+        </div>
+        <div role="tabpanel" id="pndance" class="tab-pane">
+          <span><%= render "top_scores/partials/competitive/dance2" %></span>
+        </div>
+      </div>
+    </span>   
   </div>
   <div role="tabpanel" id="juvenile" class="tab-pane">
     <span>Juvenile</span>  
