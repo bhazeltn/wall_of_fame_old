@@ -1,27 +1,31 @@
 <ul class="nav nav-tabs">
-    <li class="active"><a href="#senior" aria-controls="senior" role="tab" data-toggle="tab">Senior</a></li>
-    <li><a href="#junior" aria-controls="junior" role="tab" data-toggle="tab">Junior</a></li>
-    <li><a href="#novice" aria-controls="novice" role="tab" data-toggle="tab">Novice</a></li>
-    <li><a href="#prenovice" aria-controls="prenovice" role="tab" data-toggle="tab">Pre-Novice</a></li>
-    <li><a href="#juvenile" aria-controls="juvenile" role="tab" data-toggle="tab">Juvenile</a></li>
-    <li><a href="#prejuvenile " aria-controls="prejuvenile" role="tab" data-toggle="tab">Pre-Juvenile</a></li>
-  </ul>
-  <div class="tab-content">
-    <div role="tabpanel" id="senior" class="tab-pane active">
-      <span><% render "top_scores/partials/sr" %></span>  
-    </div>
-    <div role="tabpanel" id="junior" class="tab-pane">
-      <span>Junior</span>  
-    </div>
-    <div role="tabpanel" id="novice" class="tab-pane">
-      <span>Novice</span>  
-    </div>
-    <div role="tabpanel" id="prenovice" class="tab-pane">
-      <span>Pre-Novice</span>  
-    </div>
-    <div role="tabpanel" id="juvenile" class="tab-pane">
-      <span>Juvenile</span>  
-    </div>
-    <div role="tabpanel" id="prejuvenile" class="tab-pane">
-      <span>Pre-Juvenile</span>  
-    </div>
+  <li class="active"><a href="#senior" aria-controls="senior" role="tab" data-toggle="tab">Senior</a></li>
+  <li><a href="#junior" aria-controls="junior" role="tab" data-toggle="tab">Junior</a></li>
+  <li><a href="#novice" aria-controls="novice" role="tab" data-toggle="tab">Novice</a></li>
+  <li><a href="#prenovice" aria-controls="prenovice" role="tab" data-toggle="tab">Pre-Novice</a></li>
+  <li><a href="#juvenile" aria-controls="juvenile" role="tab" data-toggle="tab">Juvenile</a></li>
+  <li><a href="#prejuvenile " aria-controls="prejuvenile" role="tab" data-toggle="tab">Pre-Juvenile</a></li>
+</ul>
+<div class="tab-content">
+  <div role="tabpanel" id="senior" class="tab-pane active">
+    <span><% render "top_scores/partials/competitive/sr" %></span>  
+  </div>
+  <div role="tabpanel" id="junior" class="tab-pane">
+    <span>Junior</span>  
+  </div>
+  <div role="tabpanel" id="novice" class="tab-pane">
+    <span>Novice</span>  
+  </div>
+  <div role="tabpanel" id="prenovice" class="tab-pane">
+    <span>Pre-Novice</span>  
+  </div>
+  <div role="tabpanel" id="juvenile" class="tab-pane">
+    <span>Juvenile</span>  
+  </div>
+  <div role="tabpanel" id="prejuvenile" class="tab-pane">
+    <span>Pre-Juvenile</span>  
+  </div>
+</div>
+<div>
+  <% render "top_scores/partials/competitive/sr" %>
+</div>
