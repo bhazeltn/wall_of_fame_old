@@ -106,23 +106,35 @@
   <div role="tabpanel" id="juvenile" class="tab-pane">
     <span>
       <ul class="nav nav-tabs">
-        <li class="active"><a href="#jwomen" aria-controls="jwomen" role="tab" data-toggle="tab">Women</a></li>
-        <li><a href="#jmen" aria-controls="jmen" role="tab" data-toggle="tab">Men</a></li>
+        <li class="active"><a href="#jwomenu12" aria-controls="jwomenu12" role="tab" data-toggle="tab">Women U12</a></li>
+        <li><a href="#jwomenu14" aria-controls="jwomenu14" role="tab" data-toggle="tab">Women U14</a></li>
+        <li><a href="#jmen" aria-controls="jmen" role="tab" data-toggle="tab">Men (Combined)</a></li>
+        <li><a href="#jmenu12" aria-controls="jmenu12" role="tab" data-toggle="tab">Men U12</a></li>
+        <li><a href="#jmenu14" aria-controls="jmenu14" role="tab" data-toggle="tab">Men U14</a></li>
         <li><a href="#jpairs" aria-controls="jpairs" role="tab" data-toggle="tab">Pairs</a></li>
         <li><a href="#jdance" aria-controls="jdance" role="tab" data-toggle="tab">Dance</a></li>
       </ul>
       <div class="tab-content">
-        <div role="tabpanel" id="jwomen" class="tab-pane active">
+        <div role="tabpanel" id="jwomenu12" class="tab-pane active">
+          <span><%= render "top_scores/partials/competitive/free" %></span>
+        </div>
+        <div role="tabpanel" id="jwomenu14" class="tab-pane">
           <span><%= render "top_scores/partials/competitive/free" %></span>
         </div>
         <div role="tabpanel" id="jmen" class="tab-pane">
+          <span><%= render "top_scores/partials/competitive/free" %></span>
+        </div>
+        <div role="tabpanel" id="jmenu12" class="tab-pane">
+          <span><%= render "top_scores/partials/competitive/free" %></span>
+        </div>
+        <div role="tabpanel" id="jmenu14" class="tab-pane">
           <span><%= render "top_scores/partials/competitive/free" %></span>
         </div>
         <div role="tabpanel" id="jpairs" class="tab-pane">
           <span><%= render "top_scores/partials/competitive/free" %></span>
         </div>
         <div role="tabpanel" id="jdance" class="tab-pane">
-          <span><%= render "top_scores/partials/competitive/free" %></span>
+          <span><%= render "top_scores/partials/competitive/dance2" %></span>
         </div>
       </div>
     </span>    
