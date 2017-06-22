@@ -104,9 +104,63 @@
     </span>   
   </div>
   <div role="tabpanel" id="juvenile" class="tab-pane">
-    <span>Juvenile</span>  
+    <span>
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#jwomen" aria-controls="jwomen" role="tab" data-toggle="tab">Women</a></li>
+        <li><a href="#jmen" aria-controls="jmen" role="tab" data-toggle="tab">Men</a></li>
+        <li><a href="#jpairs" aria-controls="jpairs" role="tab" data-toggle="tab">Pairs</a></li>
+        <li><a href="#jdance" aria-controls="jdance" role="tab" data-toggle="tab">Dance</a></li>
+      </ul>
+      <div class="tab-content">
+        <div role="tabpanel" id="jwomen" class="tab-pane active">
+          <span><%= render "top_scores/partials/competitive/free" %></span>
+        </div>
+        <div role="tabpanel" id="jmen" class="tab-pane">
+          <span><%= render "top_scores/partials/competitive/free" %></span>
+        </div>
+        <div role="tabpanel" id="jpairs" class="tab-pane">
+          <span><%= render "top_scores/partials/competitive/free" %></span>
+        </div>
+        <div role="tabpanel" id="jdance" class="tab-pane">
+          <span><%= render "top_scores/partials/competitive/free" %></span>
+        </div>
+      </div>
+    </span>    
   </div>
   <div role="tabpanel" id="prejuvenile" class="tab-pane">
-    <span>Pre-Juvenile</span>  
+    <span>
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#pjwomenu11" aria-controls="pjwomenu11" role="tab" data-toggle="tab">Women U11</a></li>
+        <li><a href="#pjwomenu13" aria-controls="pjwomenu13" role="tab" data-toggle="tab">Women U13</a></li>
+        <li><a href="#pjmen" aria-controls="pjmen" role="tab" data-toggle="tab">Men (Combined)</a></li>
+        <li><a href="#pjmenu11" aria-controls="pjmenu11" role="tab" data-toggle="tab">Men U11)</a></li>
+        <li><a href="#pjmenu13" aria-controls="pjmenu13" role="tab" data-toggle="tab">Men U13</a></li>
+        <li><a href="#pjpairs" aria-controls="pjpairs" role="tab" data-toggle="tab">Pairs</a></li>
+        <li><a href="#pjdance" aria-controls="pjdance" role="tab" data-toggle="tab">Dance</a></li>
+      </ul>
+      <div class="tab-content">
+        <div role="tabpanel" id="pjwomenu11" class="tab-pane active">
+          <span><%= render "top_scores/partials/competitive/free" %></span>
+        </div>
+        <div role="tabpanel" id="pjwomenu13" class="tab-pane active">
+          <span><%= render "top_scores/partials/competitive/free" %></span>
+        </div>
+        <div role="tabpanel" id="pjmen" class="tab-pane">
+          <span><%= render "top_scores/partials/competitive/free" %></span>
+        </div>
+        <div role="tabpanel" id="pjmenu11" class="tab-pane">
+          <span><%= render "top_scores/partials/competitive/free" %></span>
+        </div>
+        <div role="tabpanel" id="pjmenu13" class="tab-pane">
+          <span><%= render "top_scores/partials/competitive/free" %></span>
+        </div>
+        <div role="tabpanel" id="pjpairs" class="tab-pane">
+          <span><%= render "top_scores/partials/competitive/free" %></span>
+        </div>
+        <div role="tabpanel" id="pjdance" class="tab-pane">
+          <span><%= render "top_scores/partials/competitive/free" %></span>
+        </div>
+      </div>
+    </span>  
   </div>
 </div>
