@@ -8,7 +8,28 @@
 </ul>
 <div class="tab-content">
   <div role="tabpanel" id="senior" class="tab-pane active">
-    <span><%= render "top_scores/partials/competitive/sr" %></span>  
+    <span>
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#srwomen" aria-controls="srwomen" role="tab" data-toggle="tab">Women</a></li>
+        <li><a href="#srmen" aria-controls="srmen" role="tab" data-toggle="tab">Men</a></li>
+        <li><a href="#srpairs" aria-controls="srpairs" role="tab" data-toggle="tab">Pairs</a></li>
+        <li><a href="#srdance" aria-controls="srdance" role="tab" data-toggle="tab">Dance</a></li>
+      </ul>
+      <div class="tab-content">
+        <div role="tabpanel" id="srwomen" class="tab-pane active">
+          <span>Sr Women</span>
+        </div>
+        <div role="tabpanel" id="srmen" class="tab-pane active">
+          <span>Sr Men</span>
+        </div>
+        <div role="tabpanel" id="srpairs" class="tab-pane active">
+          <span>Sr Pairs</span>
+        </div>
+        <div role="tabpanel" id="srdance" class="tab-pane active">
+          <span>Sr Dance</span>
+        </div>
+      </div>
+    </span>  
   </div>
   <div role="tabpanel" id="junior" class="tab-pane">
     <span>Junior</span>  
