@@ -32,7 +32,28 @@
     </span>  
   </div>
   <div role="tabpanel" id="junior" class="tab-pane">
-    <span>Junior</span>  
+    <span>
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#jrwomen" aria-controls="jrwomen" role="tab" data-toggle="tab">Women</a></li>
+        <li><a href="#jrmen" aria-controls="jrmen" role="tab" data-toggle="tab">Men</a></li>
+        <li><a href="#jrpairs" aria-controls="jrpairs" role="tab" data-toggle="tab">Pairs</a></li>
+        <li><a href="#jrdance" aria-controls="jrdance" role="tab" data-toggle="tab">Dance</a></li>
+      </ul>
+      <div class="tab-content">
+        <div role="tabpanel" id="jrwomen" class="tab-pane active">
+          <span><%= render "top_scores/partials/competitive/shortandlong" %></span>
+        </div>
+        <div role="tabpanel" id="jrmen" class="tab-pane">
+          <span><%= render "top_scores/partials/competitive/shortandlong" %></span>
+        </div>
+        <div role="tabpanel" id="jrpairs" class="tab-pane">
+          <span><%= render "top_scores/partials/competitive/shortandlong" %></span>
+        </div>
+        <div role="tabpanel" id="jrdance" class="tab-pane">
+          <span><%= render "top_scores/partials/competitive/dance1" %></span>
+        </div>
+      </div>
+    </span> 
   </div>
   <div role="tabpanel" id="novice" class="tab-pane">
     <span>Novice</span>  
