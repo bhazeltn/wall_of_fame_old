@@ -25,7 +25,20 @@
     </span>  
   </div>
   <div role="tabpanel" id="10" class="tab-pane">
-    <span>STAR 10</span>  
+    <span>
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#10women" aria-controls="gold" role="tab" data-toggle="tab">Women</a></li>
+        <li><a href="#10men" aria-controls="gold" role="tab" data-toggle="tab">Men</a></li>
+      </ul>
+      <div class="tab-content">
+        <div role="tabpanel" id="10women" class="tab-pane active">
+          <span><%= render "top_scores/partials/scores/free" %></span>
+        </div>
+        <div role="tabpanel" id="10men" class="tab-pane">
+          <span><%= render "top_scores/partials/scores/free" %></span>
+        </div>
+      </div>
+    </span>   
   </div>
   <div role="tabpanel" id="9" class="tab-pane">
     <span>STAR 9</span>  
