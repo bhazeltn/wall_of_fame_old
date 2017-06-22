@@ -31,8 +31,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'twitter-bootstrap-rails'
-gem 'bootstrap-sass', '~> 3.3.5'
+gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
