@@ -5,30 +5,30 @@
 <!-- Top Scores Page -->
 <div>
   <ul class="nav nav-tabs">
-    <li class="active"><a data-togle="tab" href="#intro">Introduction and Criteria</a></li>
-    <li><a data-togle="tab" href="#comp">Competitive</a></li>
-    <li><a data-togle="tab" href="#star">STARSkate</a></li>
-    <li><a data-togle="tab" href="#adult">AdultSkate</a></li>
-    <li><a data-togle="tab" href="#int">Intrepretive and Triathalon</a></li>
-    <li><a data-togle="tab" href="#team">STARSkate Team</a></li>
+    <li class="active"><a href="#intro" aria-controls="intro" role="tab" data-toggle="tab">Introduction and Criteria</a></li>
+    <li><a href="#comp" aria-controls="comp" role="tab" data-toggle="tab">Competitive</a></li>
+    <li><a href="#star" aria-controls="star" role="tab" data-toggle="tab">STARSkate</a></li>
+    <li><a href="#adult" aria-controls="adult" role="tab" data-toggle="tab">AdultSkate</a></li>
+    <li><a href="#int" aria-controls="int" role="tab" data-toggle="tab">Intrepretive and Triathalon</a></li>
+    <li><a href="#team" aria-controls="team" role="tab" data-toggle="tab">STARSkate Team</a></li>
   </ul>
   <div class="tab-content">
-    <div id="intro" class="tab-pane active">
+    <div role="tabpanel" id="intro" class="tab-pane active">
       <span><%= render partial: "top_scores/partials/intro" %></span>  
     </div>
-    <div id="comp" class="tab-pane">
+    <div role="tabpanel" id="comp" class="tab-pane">
       <span>comp</span>  
     </div>
-    <div id="star" class="tab-pane">
+    <div role="tabpanel" id="star" class="tab-pane">
       <span>star</span>  
     </div>
-    <div id="adult" class="tab-pane">
+    <div role="tabpanel" id="adult" class="tab-pane">
       <span>adult</span>  
     </div>
-    <div id="int" class="tab-pane">
+    <div role="tabpanel" id="int" class="tab-pane">
       <span>int</span>  
     </div>
-    <div id="team" class="tab-pane">
+    <div role="tabpanel" id="team" class="tab-pane">
       <span>team</span>  
     </div>
   </div>
