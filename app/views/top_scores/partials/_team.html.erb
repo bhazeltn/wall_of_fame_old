@@ -1,7 +1,28 @@
-Team
-STAR 5
-STAR 6
-STAR 7/8
-STAR 9/10
-Gold
-Open
+<ul class="nav nav-tabs">
+  <li class="active"><a href="#open" aria-controls="open" role="tab" data-toggle="tab">Open</a></li>
+  <li><a href="#gold" aria-controls="gold" role="tab" data-toggle="tab">Gold</a></a></li>
+  <li><a href="#10" aria-controls="10" role="tab" data-toggle="tab">STAR 9/10</a></a></li>
+  <li><a href="#8" aria-controls="8" role="tab" data-toggle="tab">STAR 7/8</a></a></li>
+  <li><a href="#6" aria-controls="6" role="tab" data-toggle="tab">STAR 6</a></a></li>
+  <li><a href="#5" aria-controls="5" role="tab" data-toggle="tab">STAR 5</a></a></li>
+</ul>
+<div class="tab-content">
+  <div role="tabpanel" id="open" class="tab-pane active">
+    <span><%= render "top_scores/partials/scores/team" %></span>
+  </div>
+  <div role="tabpanel" id="gold" class="tab-pane">
+    <span><%= render "top_scores/partials/scores/team" %></span> 
+  </div>
+  <div role="tabpanel" id="10" class="tab-pane">
+    <span><%= render "top_scores/partials/scores/team" %></span> 
+  </div>
+  <div role="tabpanel" id="8" class="tab-pane">
+    <span><%= render "top_scores/partials/scores/team" %></span> 
+  </div>
+  <div role="tabpanel" id="6" class="tab-pane">
+    <span><%= render "top_scores/partials/scores/team" %></span> 
+  </div>
+  <div role="tabpanel" id="5" class="tab-pane">
+    <span><%= render "top_scores/partials/scores/team" %></span> 
+  </div>
+</div>
