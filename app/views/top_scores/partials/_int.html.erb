@@ -92,21 +92,66 @@
             </div>
           </span>
         </div>
-        
       </div>
     </span>
+    <div role="tabpanel" id="tri" class="tab-pane">
+      <span>
+         <ul class="nav nav-tabs">
+        <li class="active"><a href="#goldtri" aria-controls="goldtri" role="tab" data-toggle="tab">Gold</a></li>
+        <li><a href="#silvertri" aria-controls="silvertri" role="tab" data-toggle="tab">Silver</a></li>
+        <li><a href="#bronzetri" aria-controls="bronzetri" role="tab" data-toggle="tab">Bronze</a></li>
+      </ul>
+      <div class="tab-content">
+        <div role="tab-panel" id="goldtri" class="tab-pane active">
+          <span>
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#gwoment" aria-controls="gwoment" role="tab" data-toggle="tab">Women</a></li>
+              <li><a href="#gment" aria-controls="gment" role="tab" data-toggle="tab">Men</a></li>
+            </ul>
+            <div class="tab-content">
+              <div role="tab-panel" id="gwoment" class="tab-pane active">
+                <span><%= render "top_scores/partials/scores/free" %></span>
+              </div>
+              <div role="tab-panel" id="gment" class="tab-pane">
+                <span><%= render "top_scores/partials/scores/free" %></span>
+              </div>
+            </div>
+          </span>
+        </div>
+        <div role="tab-panel" id="silvertri" class="tab-pane">
+          <span>
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#swoment" aria-controls="swoment" role="tab" data-toggle="tab">Women</a></li>
+              <li><a href="#sment" aria-controls="sment" role="tab" data-toggle="tab">Men</a></li>
+            </ul>
+            <div class="tab-content">
+              <div role="tab-panel" id="swoment" class="tab-pane active">
+                <span><%= render "top_scores/partials/scores/free" %></span>
+              </div>
+              <div role="tab-panel" id="sment" class="tab-pane">
+                <span><%= render "top_scores/partials/scores/free" %></span>
+              </div>
+            </div>
+          </span>
+        </div>
+        <div role="tab-panel" id="bronzetri" class="tab-pane">
+          <span>
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#bwoment" aria-controls="bwoment" role="tab" data-toggle="tab">Women</a></li>
+              <li><a href="#bment" aria-controls="bment" role="tab" data-toggle="tab">Men</a></li>
+            </ul>
+            <div class="tab-content">
+              <div role="tab-panel" id="bwoment" class="tab-pane active">
+                <span><%= render "top_scores/partials/scores/free" %></span>
+              </div>
+              <div role="tab-panel" id="bment" class="tab-pane">
+                <span><%= render "top_scores/partials/scores/free" %></span>
+              </div>
+            </div>
+          </span>
+        </div>
+      </div>
+      </span>
+    </div>
   </div>
 </div>
-
-Interpretive
-Men/Women/Couples
-Introductory
-Bronze
-Silver
-Gold
-
-Men/Women
-Triathalon
-Bronze
-Silver
-Gold
