@@ -1,3 +1,103 @@
+<ul class="nav nav-tabs">
+  <li class="active"><a href="#int" aria-controls="int" role="tab" data-toggle="tab">Interpretive</a></li>
+  <li><a href="#tri" aria-controls="tri" role="tab" data-toggle="tab">Triathalon</a></a></li>
+</ul>
+<div class="tab-content">
+  <div role="tabpanel" id="int" class="tab-pane active">
+    <span>
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#goldint" aria-controls="goldint" role="tab" data-toggle="tab">Gold</a></li>
+        <li><a href="#silverint" aria-controls="silverint" role="tab" data-toggle="tab">Silver</a></li>
+        <li><a href="#bronzeint" aria-controls="bronzeint" role="tab" data-toggle="tab">Bronze</a></li>
+        <li><a href="#introint" aria-controls="introint" role="tab" data-toggle="tab">Introductory</a></li>
+      </ul>
+      <div class="tab-content">
+        <div role="tab-panel" id="goldint" class="tab-pane active">
+          <span>
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#gwomen" aria-controls="gwomen" role="tab" data-toggle="tab">Women</a></li>
+              <li><a href="#gmen" aria-controls="gmen" role="tab" data-toggle="tab">Men</a></li>
+              <li><a href="#gcouple" aria-controls="gcouple" role="tab" data-toggle="tab">Couples</a></li>
+            </ul>
+            <div class="tab-content">
+              <div role="tab-panel" id="gwomen" class="tab-pane active">
+                <span><%= render "top_scores/partials/scores/free" %></span>
+              </div>
+              <div role="tab-panel" id="gmen" class="tab-pane">
+                <span><%= render "top_scores/partials/scores/free" %></span>
+              </div>
+              <div role="tab-panel" id="gcouple" class="tab-pane">
+                <span><%= render "top_scores/partials/scores/free" %></span>
+              </div>
+            </div>
+          </span>
+        </div>
+        <div role="tab-panel" id="silverint" class="tab-pane active">
+          <span>
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#swomen" aria-controls="swomen" role="tab" data-toggle="tab">Women</a></li>
+              <li><a href="#smen" aria-controls="smen" role="tab" data-toggle="tab">Men</a></li>
+              <li><a href="#scouple" aria-controls="scouple" role="tab" data-toggle="tab">Couples</a></li>
+            </ul>
+            <div class="tab-content">
+              <div role="tab-panel" id="swomen" class="tab-pane active">
+                <span><%= render "top_scores/partials/scores/free" %></span>
+              </div>
+              <div role="tab-panel" id="smen" class="tab-pane">
+                <span><%= render "top_scores/partials/scores/free" %></span>
+              </div>
+              <div role="tab-panel" id="scouple" class="tab-pane">
+                <span><%= render "top_scores/partials/scores/free" %></span>
+              </div>
+            </div>
+          </span>
+        </div>
+        <div role="tab-panel" id="bronzeint" class="tab-pane active">
+          <span>
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#bwomen" aria-controls="bwomen" role="tab" data-toggle="tab">Women</a></li>
+              <li><a href="#bmen" aria-controls="bmen" role="tab" data-toggle="tab">Men</a></li>
+              <li><a href="#bcouple" aria-controls="bcouple" role="tab" data-toggle="tab">Couples</a></li>
+            </ul>
+            <div class="tab-content">
+              <div role="tab-panel" id="bwomen" class="tab-pane active">
+                <span><%= render "top_scores/partials/scores/free" %></span>
+              </div>
+              <div role="tab-panel" id="bmen" class="tab-pane">
+                <span><%= render "top_scores/partials/scores/free" %></span>
+              </div>
+              <div role="tab-panel" id="bcouple" class="tab-pane">
+                <span><%= render "top_scores/partials/scores/free" %></span>
+              </div>
+            </div>
+          </span>
+        </div>
+        <div role="tab-panel" id="introint" class="tab-pane active">
+          <span>
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#iwomen" aria-controls="iwomen" role="tab" data-toggle="tab">Women</a></li>
+              <li><a href="#imen" aria-controls="imen" role="tab" data-toggle="tab">Men</a></li>
+              <li><a href="#icouple" aria-controls="icouple" role="tab" data-toggle="tab">Couples</a></li>
+            </ul>
+            <div class="tab-content">
+              <div role="tab-panel" id="iwomen" class="tab-pane active">
+                <span><%= render "top_scores/partials/scores/free" %></span>
+              </div>
+              <div role="tab-panel" id="imen" class="tab-pane">
+                <span><%= render "top_scores/partials/scores/free" %></span>
+              </div>
+              <div role="tab-panel" id="icouple" class="tab-pane">
+                <span><%= render "top_scores/partials/scores/free" %></span>
+              </div>
+            </div>
+          </span>
+        </div>
+        
+      </div>
+    </span>
+  </div>
+</div>
+
 Interpretive
 Men/Women/Couples
 Introductory
