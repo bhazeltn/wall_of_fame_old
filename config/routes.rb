@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'star_honours/index'
+
+  get 'star_gold/index'
+
   get 'ext_awards/index'
 
   get 'awards/index'

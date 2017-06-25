@@ -1,0 +1,2 @@
+module StarHonoursHelper
+end

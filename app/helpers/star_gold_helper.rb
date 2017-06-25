@@ -1,0 +1,2 @@
+module StarGoldHelper
+end
