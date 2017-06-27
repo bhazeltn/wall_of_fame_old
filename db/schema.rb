@@ -10,7 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170624033747) do
+ActiveRecord::Schema.define(version: 20170627173832) do
+
+  create_table "scores", force: :cascade do |t|
+    t.text     "category"
+    t.text     "scoretype"
+    t.text     "skater1"
+    t.text     "skater2"
+    t.text     "skater3"
+    t.text     "skater4"
+    t.float    "score"
+    t.text     "event"
+    t.integer  "year"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string   "username"
