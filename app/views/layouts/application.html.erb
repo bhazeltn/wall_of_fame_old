@@ -10,16 +10,14 @@
   </head>
 
   <body>
+    <%= render 'layouts/navigation' %>
     <div class="container">
-      <%= render 'layouts/navigation' %>
-      <div class="container">
-        <div class="jumbotron">
-          <div style="text-align: center">
-              <img src="http://calalta.net/wp-content/uploads/2015/03/Calalta-Logo.png"/>
-              <h1><b>Wall Of Fame</b></h1>
-  
-          <%= yield %>    
-      </div>
+      <div class="jumbotron">
+        <div style="text-align: center">
+            <img src="http://calalta.net/wp-content/uploads/2015/03/Calalta-Logo.png"/>
+            <h1><b>Wall Of Fame</b></h1>
+
+        <%= yield %>    
     </div>
   </body>
 </html>
