@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'admin/index'
+
   get 'star_honours/index'
 
   get 'star_gold/index'
